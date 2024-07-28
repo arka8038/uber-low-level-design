@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface DriverMatchingStrategy {
+package strategy;
+
+import trip.Driver;
+
+public interface DriverMatchingStrategy {
+    Driver matchDriver();
 }

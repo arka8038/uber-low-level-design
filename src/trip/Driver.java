@@ -1,3 +1,5 @@
+package trip;
+
 public class Driver {
     private String name;
     private Rating rating;

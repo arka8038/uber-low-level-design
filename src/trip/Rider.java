@@ -1,3 +1,5 @@
+package trip;
+
 public class Rider {
     private String name;
     private Rating rating;

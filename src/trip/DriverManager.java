@@ -1,3 +1,5 @@
+package trip;
+
 import java.util.concurrent.ConcurrentHashMap;
 
 public class DriverManager {
@@ -12,5 +14,9 @@ public class DriverManager {
             instance = new DriverManager();
         }
         return instance;
+    }
+
+    public ConcurrentHashMap<String, Driver> getDriveMap() {
+        return driveMap;
     }
 }

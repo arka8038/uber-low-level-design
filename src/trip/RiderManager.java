@@ -1,3 +1,5 @@
+package trip;
+
 import java.util.concurrent.ConcurrentHashMap;
 
 public class RiderManager {

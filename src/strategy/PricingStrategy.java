@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class PricingStrategy {
+package strategy;
+
+import java.math.BigDecimal;
+
+public interface PricingStrategy {
+    double createPrice();
 }
